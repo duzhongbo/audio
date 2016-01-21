@@ -77,7 +77,7 @@
 				}
 
 				/* Let's load our file. */
-				loadAudioElement('https://s3-eu-west-1.amazonaws.com/fourthof5assets/heng-feeling-good.mp3').then(function(elem) {
+				loadAudioElement('heng-feeling-good.mp3').then(function(elem) {
 					/* Instantiate the Sound class into our hoisted variable. */
 					audio = Object.create(Sound);
  					/* Set the element of `audio` to our MediaElement. */
