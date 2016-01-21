@@ -1,0 +1,71 @@
+			a {
+				color: white;
+			}
+
+			p {
+				font: .8rem 'Ropa Sans', sans-serif;
+				line-height: 50px;
+				margin: 0;
+			}
+
+			.left {
+				float: left;
+			}
+
+			.right {
+				float: right;
+			}
+
+			.logo-container, .logo, .container, .clone {
+				width: 300px;
+				height: 300px;
+				position: absolute;
+				top: 0; bottom: 0;
+				left: 0; right: 0;
+				margin: auto;
+			}
+
+			.logo-container, .clone {
+				background: black;
+				border-radius: 200px;
+			}
+
+			.mask {
+				overflow: hidden;
+				will-change: transform;
+				position: absolute;
+				transform: none;
+				top: 0; left: 0;
+			}
+
+			.footer, .not-chrome {
+				width: 100vw;
+				height: 50px;
+				background: black;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+
+			.not-chrome {
+				top: -50px;
+				bottom: inherit;
+				text-align: center;
+				transition: top .3 ease-out;
+			}
+
+			.not-chrome.open {
+				top: 0;
+			}
+
+			.footer p, .not-chrome p {
+				color: white;
+			}
+
+			.footer-container {
+				max-width: 80vw;
+				margin: 0 auto;
+				height: 100%;
+				position: relative;
+			}
+  
